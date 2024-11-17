@@ -16,6 +16,11 @@
           <target>11</target> <!-- Replace with your desired Java version -->
         </configuration>
       </plugin>
+      <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.3.2</version>  <!-- Update this to a newer version -->
+        </plugin>
     </plugins>
   </build>
 </project>
